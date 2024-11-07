@@ -1,0 +1,202 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: whitesmoke;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  font-weight: 600;
+  color: black;
+  text-align: left;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  text-shadow: 1px 1px;
+  font-family: Papyrus;
+  outline: 3px solid black;
+  outline-width: 5px;
+  padding: 20px 5px;
+  background-color: darkcyan;
+}
+
+a {
+  font-weight: 500;
+  color: black;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 5px;
+  padding: 5px 5px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  display: block;
+  justify-content: left;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+h1 {
+  font-size: 2em;
+  line-height: 1.1;
+  text-align: left;
+  color: yellow;
+
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  margin: 0 auto;  
+  text-align: center;
+}
+
+#murlok {
+  max-width: 25%; 
+  height: auto;
+  float: right;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  
+}
+#murlok:hover {
+  filter: drop-shadow(5px 5px 15px aquamarine);
+    -webkit-filter: drop-shadow(5px 5px 15px aquamarine);
+}
+
+/*classes*/
+
+/*demon hunter*/
+h2 {
+  color: rgb(163, 48, 201) ;
+  text-align: left;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  font-family: fantasy;
+  font-size: 25px;
+  font-weight: 300;
+  
+}
+
+/*monk*/
+h3 {
+  color: rgb(0, 255, 152) ;
+  text-align: left;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  font-family: fantasy;
+  font-size: 25px;
+  font-weight: 300;
+}
+/*mage*/
+h4 {
+  color: rgb(63, 199, 235) ;
+  text-align: left;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  font-family: fantasy;
+  font-size: 25px;
+  font-weight: 300;
+}
+/*warlock*/
+h5 {
+  color: rgb(135, 136, 236) ;
+  text-align: left;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  font-family: fantasy;
+  font-size: 25px;
+  font-weight: 300;
+}
+/*paladin*/
+h6 {
+  color: rgb(244, 140, 186) ;
+  text-align: left;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  font-family: fantasy;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+p {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+#rcorners1 {
+  border-radius: 25px;
+  background: darkcyan;
+  padding: 20px;
+  width: 1000px;
+  height: auto;
+  padding: 20px;
+  margin: 20px;
+}
+
+main img {
+  border: 4px solid #000; 
+  padding: 0px;
+}
+
+header button img {
+  width: 300px;
+  height: 300px;
+  
+}
+
+
+
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+}
+
+
+
+button {
+  
+  border: none;
+  cursor: pointer;
+  color: var(--text-color); 
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+
+}
+
+header button image {
+   border: 0px;
+}
+
+
+
+
